@@ -58,22 +58,3 @@ const word = "deeedbbcccbdaa"
 const k = 3
 
 console.log(compressWord(word, k))
-
-
-    // for (let i = 0; i < word.length; i++) {
-
-    //     if (stack.length === 0) {
-    //         stack.push([word[i], 1])
-    //     } else {
-    //         let [char, count] = stack[stack.length - 1]
-
-    //         if (char === word[i]) {
-    //             if (count + 1 === k) {
-    //                 stack.pop()
-    //             } else {
-    //                 stack[stack.length - 1][1]++
-    //             }
-    //         } else {
-    //             stack.push([word[i], 1])
-    //         }
-    //     }
